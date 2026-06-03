@@ -1,4 +1,3 @@
-// Faça um programa que leia 7 nomes de pessoas e guarde-os em um vetor. No final, mostre uma listagem com todos os nomes informados, na ordem inversa daquela em que eles foram informados. 
 let nomes = []; //variável para armazenar os nomes na array (lista)
 for (let posição = 0; posição < 7; posição++) { //cria um contador chamado posição que começa em 0, o laço vai continuar rodando enquanto posição for menor que 7 (repetição), o posição++ soma mais um no valor de posição a cada rodada
     nomes[posição] = prompt("Digite o nome da pessoa " + (posição + 1));
